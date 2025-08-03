@@ -1,15 +1,15 @@
-# 📄 Document Q&A Agent using OpenAI & RAG (Retrieval-Augmented Generation)
+# Document Q&A Agent using OpenAI & RAG (Retrieval-Augmented Generation)
 
 This project demonstrates how to build an intelligent Document-Reading AI Assistant using **OpenAI’s GPT-4**, **LangChain**, and **vector database (FAISS)**. The assistant can read and answer questions from various document formats including **PDFs, Word, Excel, HTML, JSON**, and more — all without needing to train a new model.
 
 ---
 
-## 🧑‍🏫 Designed for Beginner Python and AI/ML Learners
+## Designed for Beginner Python and AI/ML Learners
 
 This beginner-friendly project helps students and enthusiasts learn:
 
 - How to load structured and unstructured documents using LangChain loaders  
-- ✂How to split documents into context-aware chunks for retrieval  
+- How to split documents into context-aware chunks for retrieval  
 - How to create embeddings using OpenAI’s `text-embedding-ada-002` model  
 - How to store and retrieve chunks using FAISS (vector database)  
 - How to use GPT-4 to generate grounded answers from retrieved chunks  
@@ -17,7 +17,7 @@ This beginner-friendly project helps students and enthusiasts learn:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Document Ingestion**: Load a file (PDF, DOCX, XLSX, HTML, CSV, JSON) using the appropriate LangChain document loader.
 2. **Text Chunking**: Split content into manageable pieces for the LLM using smart chunking strategies.
@@ -27,7 +27,7 @@ This beginner-friendly project helps students and enthusiasts learn:
 
 ---
 
-## 📚 Educational Goals
+## Educational Goals
 
 This hands-on AI project will help you:
 
@@ -39,7 +39,7 @@ This hands-on AI project will help you:
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠Technologies Used
 
 - Python 3.x  
 - OpenAI GPT-4 / GPT-3.5-turbo  
@@ -50,7 +50,7 @@ This hands-on AI project will help you:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To try this project:
 
@@ -62,7 +62,7 @@ To try this project:
 
 ---
 
-## 📂 Supported Document Formats
+## Supported Document Formats
 
 | File Type     | Recommended Loader                    |
 |---------------|----------------------------------------|
@@ -76,7 +76,7 @@ To try this project:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add support for persistent vector DB saving/loading  
 - Create a Streamlit UI for easier user interaction  
@@ -86,7 +86,7 @@ To try this project:
 
 ---
 
-## 🧩 Limitations & Notes
+## Limitations & Notes
 
 - FAISS is in-memory — use Pinecone or Qdrant for production-ready storage  
 - Make sure to handle token limits with long documents by chunking wisely  
@@ -94,7 +94,7 @@ To try this project:
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source under the **MIT License**.
 
