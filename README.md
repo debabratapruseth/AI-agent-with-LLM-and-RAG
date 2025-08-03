@@ -39,7 +39,7 @@ This hands-on AI project will help you:
 
 ---
 
-## 🛠Technologies Used
+## Technologies Used
 
 - Python 3.x  
 - OpenAI GPT-4 / GPT-3.5-turbo  
