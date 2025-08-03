@@ -1,4 +1,4 @@
-# Document Q&A Agent using OpenAI & RAG (Retrieval-Augmented Generation)
+# Document Q&A Agent using LLM & RAG (Retrieval-Augmented Generation)
 
 This project demonstrates how to build an intelligent Document-Reading AI Assistant using **OpenAI’s GPT-4**, **LangChain**, and **vector database (FAISS)**. The assistant can read and answer questions from various document formats including **PDFs, Word, Excel, HTML, JSON**, and more — all without needing to train a new model.
 
@@ -19,11 +19,11 @@ This beginner-friendly project helps students and enthusiasts learn:
 
 ## How It Works
 
-1. **Document Ingestion**: Load a file (PDF, DOCX, XLSX, HTML, CSV, JSON) using the appropriate LangChain document loader.
-2. **Text Chunking**: Split content into manageable pieces for the LLM using smart chunking strategies.
-3. **Embedding**: Convert each chunk into vector form using OpenAI Embeddings.
-4. **Storage**: Store vectors in FAISS for fast similarity search.
-5. **Retrieval + QA**: On user query, the top matching chunks are passed to GPT-4 to answer questions with context.
+- Document Ingestion : Load a file (PDF, DOCX, XLSX, HTML, CSV, JSON) using the appropriate LangChain document loader.
+- Text Chunking : Split content into manageable pieces for the LLM using smart chunking strategies.
+- Embedding : Convert each chunk into vector form using OpenAI Embeddings.
+- Storage : Store vectors in FAISS for fast similarity search.
+- Retrieval + QA : On user query, the top matching chunks are passed to GPT-4 to answer questions with context.
 
 ---
 
@@ -54,11 +54,10 @@ This hands-on AI project will help you:
 
 To try this project:
 
-1. Clone the repository or open the notebook in Google Colab.  
-2. Set your OpenAI API key securely as a secret or environment variable.  
-3. Install dependencies with `pip install -r requirements.txt` or run the Colab setup cell.  
-4. Upload any supported document (PDF, Word, etc.).  
-5. Ask questions and explore your own document!
+- Clone the repository or open the notebook in Google Colab.
+- Set your OpenAI API key securely as a secret or environment variable.
+- Upload any supported document (PDF, Word, etc.).
+- Ask questions and explore your own document!
 
 ---
 
@@ -97,6 +96,14 @@ To try this project:
 ## License
 
 This project is open-source under the **MIT License**.
+
+---
+
+# Blog Post
+
+Blog URL : https://debabratapruseth.com/agentic-ai-llm-with-rag-beginner-bootcamp/
+
+Website : https://debabratapruseth.com/
 
 ---
 
